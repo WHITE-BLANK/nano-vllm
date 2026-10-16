@@ -1,3 +1,9 @@
+# 无关文件
+1.py
+flash_attn-2.7.2.post1+cu12torch2.5cxx11abiFALSE-cp312-cp312-linux_x86_64.whl
+performance.txt
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

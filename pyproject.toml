@@ -25,3 +25,12 @@ Homepage="https://github.com/GeeeekExplorer/nano-vllm"
 [tool.setuptools.packages.find]
 where = ["."]
 include = ["nanovllm*"]
+
+[tool.uv.sources]
+torch = { index = "pytorch-cu124" }
+flash-attn = { path = "flash_attn-2.7.2.post1+cu12torch2.5cxx11abiFALSE-cp312-cp312-linux_x86_64.whl" }
+
+[[tool.uv.index]]
+name = "pytorch-cu124"
+url = "https://download.pytorch.org/whl/cu124"
+explicit = true
